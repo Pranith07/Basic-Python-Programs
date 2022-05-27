@@ -32,7 +32,7 @@ love_count = L_count + O_count + V_count + E_2_count
 total_count = str(true_count) + str(love_count)
 # print(total_count)
 
-#Based on the score, check the compatibality
+#Based on the score, check the compatibility
 total_count1 = int(total_count)
 if total_count1 < 10 or total_count1 > 90:
     print(f"Your score is {total_count}, you go together like coke and mentos.")
